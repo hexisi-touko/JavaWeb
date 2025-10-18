@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表格</title>
+</head>
+<body>
+    <table border="1px" cellspacing = "0" width = "600px">
+        <tr>
+            <th>序号</th>
+            <th>品牌logo</th>
+            <th>品牌名称</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><img src="../img/huawei_logo.png" alt="logo"></td>
+            <td>华为</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><img src="../img/albb.jpg" alt="logo"></td>
+            <td>阿里巴巴</td>
+        </tr>
+    </table>
+    <!-- action 表单的提交地址，method 表单的提交方式
+                                        有get 拼接在url后面 ？username=小张&age=18（有长度限制）
+                                        和post 由请求体携带（负载）（无长度限制） 两种 
+    -->
+    <form action="" method="post">
+        用户名:<input type="text" name="username"><br><br>
+        年龄：<input type="text" name="age">
+        <input type="submit" value="提交">
+    </form>
+</body>
+</html>
